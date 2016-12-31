@@ -1,0 +1,39 @@
+{
+  "name": "moviebase",
+  "private": true,
+  "engine": "6.9.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Todiros/Moviebase.git"
+  },
+  "keywords": [
+    "movie",
+    "database",
+    "imdb",
+    "api",
+    "library",
+    "bootstrap",
+    "js",
+    "node"
+  ],
+  "author": "Anthony Bor (Xzahn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Todiros/Moviebase/issues"
+  },
+  "homepage": "https://github.com/Todiros/Moviebase#readme",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "bootstrap-sass": "3.3.7",
+    "imdb-api": "2.2.1",
+    "standard": "8.6.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
