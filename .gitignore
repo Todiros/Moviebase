@@ -3,6 +3,7 @@ typings/
 lib/
 _alt/
 *.sass
+*.cfg
 
 # Logs
 logs
