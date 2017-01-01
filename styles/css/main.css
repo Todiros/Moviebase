@@ -1,0 +1,42 @@
+@import url(src/input.css);
+@font-face { font-family: yesteryear; src: url("../../lib/fonts/Yesteryear/Yesteryear-Regular.ttf"); }
+
+.centered-form { margin-top: 20px; }
+
+.centered-form .panel { background: rgba(255, 255, 255, 0.8); box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px; }
+
+.panel-table .panel-body { padding: 0; }
+
+.panel-table .panel-body .table-bordered { border-style: none; margin: 0; }
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type { text-align: center; width: 100px; }
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type, .panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type { border-right: 0px; }
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type, .panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type { border-left: 0px; }
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td { border-bottom: 0px; }
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th { border-top: 0px; }
+
+.panel-table .panel-footer .pagination { margin: 0; }
+
+.panel-body ul { margin: 0; }
+
+.centered-cell { text-align: center; padding-top: 20px !important; }
+
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+body { background: #FF7F50; }
+
+.centered { float: none; margin: 0 auto; }
+
+.centered-text { text-align: center; }
+
+.banner { font-family: yesteryear, Helvetica, sans-serif; font-size: 100px; margin-bottom: 50px; }
+
+.contentWrapper { margin-top: 80px; }
+
+.contentWrapper .panel { margin-bottom: 0; }
